@@ -29,6 +29,7 @@ object Checker {
 class Checker extends Actor {
 
   var blackListed = List(User("Pedro", "pedro@gmail.com"))
+  //test
 
   override def receive = {
     case CheckUser(user) if blackListed.contains(user) =>
