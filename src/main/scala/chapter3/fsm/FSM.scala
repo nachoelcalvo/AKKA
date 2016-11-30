@@ -1,10 +1,10 @@
 package chapter3.fsm
 
-import akka.actor.{ActorSystem, Props, Stash, FSM}
+import akka.actor.{ActorSystem, Props, Stash,   FSM}
 import chapter3.fsm.UserStorage._
 
 
-case class User (username: String, email: String)
+case class  User (username: String, email: String)
 
 object UserStorage {
 
